@@ -19,7 +19,7 @@
   },
   
   "members":
-  {
+ [ {
             "routingNumber": "0123456",
             "participantName": "BNY Mellon",
             "msgSupported": [
@@ -52,5 +52,5 @@
             "statusDesciption": "Routing numbe is valid but participant is not ACTIVE",
             "timeStamp": "2018-08-10T00:50:07Z"
         }
-  
+]
 }
