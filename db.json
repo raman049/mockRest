@@ -17,4 +17,40 @@
   "profile": {
     "name": "typicode"
   }
+  
+  "members":[
+  {
+            "routingNumber": "0123456",
+            "participantName": "BNY Mellon",
+            "msgSupported": [
+                "CREDIT_TRANSFER",
+                "REQ_FOR_RETURN_OF_FUNDS"
+            ],
+            "status": "ACTIVE",
+            "statusDesciption": "Participant is Active from mock rest",
+            "timeStamp": "2018-08-10T00:50:07Z"
+        },
+        {
+            "routingNumber": "09187474",
+            "participantName": "BNY Mellon",
+            "msgSupported": [
+                "REMIT_ADVICE",
+                "ACKNOWLEDGEMENT"
+            ],
+            "status": "ACTIVE",
+            "statusDesciption": "Participant is ACTIVE  from mock rest",
+            "timeStamp": "2018-08-10T00:50:07Z"
+        },
+        {
+            "routingNumber": "0746474",
+            "participantName": "BNY Mellon",
+            "msgSupported": [
+                "CREDIT_TRANSFER",
+                "REQ_FOR_RETURN_OF_FUNDS"
+            ],
+            "status": "INACTIVE",
+            "statusDesciption": "Routing numbe is valid but participant is not ACTIVE",
+            "timeStamp": "2018-08-10T00:50:07Z"
+        }
+  ]
 }
